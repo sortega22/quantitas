@@ -13,6 +13,8 @@
     "react": "18.2.0",
     "react-chrono": "^1.17.2",
     "react-dom": "18.2.0",
+    "react-reveal": "^1.2.2",
+    "react-transition-group": "^4.4.2",
     "sass": "^1.53.0",
     "vertical-timeline-component-for-react": "^1.0.7"
   },
@@ -20,6 +22,7 @@
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
+    "@types/react-transition-group": "^4.4.5",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.2",
     "typescript": "4.7.4"

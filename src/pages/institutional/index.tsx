@@ -1,4 +1,4 @@
-import { Chrono } from "react-chrono";
+import Fade from 'react-reveal/Fade';
 import React from "react";
 import Image from 'next/image';
 import style from './styles.module.scss';
@@ -8,6 +8,7 @@ const Institutional = () => {
     <>
       <div className={style.generalContent}>
         {/* First Container */}
+        <Fade left>
         <div>
           <div className={style.blueLightBox}>
             <div className={style.blueLightBoxInside}>
@@ -72,6 +73,8 @@ const Institutional = () => {
             </div>
           </div>
         </div>
+        </Fade>
+        <Fade top>
         {/* Second Container */}
         <div className={style.blueDarkBox}>
           <div className={style.blueDarkTitle}>
@@ -92,6 +95,8 @@ const Institutional = () => {
             <span>BOLSA</span>
           </div>
         </div>
+        </Fade>
+        <Fade right>
         {/* Third Container */}
         <div className={style.blueLightBoxLast}>
           <div className="timeline">
@@ -154,6 +159,7 @@ const Institutional = () => {
           </div>
           </div>
         </div>
+        </Fade>
       </div>
     </>
   );
