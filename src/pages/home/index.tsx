@@ -13,7 +13,7 @@ const Home = () => {
             margin: "63px",
             marginLeft: "18px"
           }}>
-            <Image src={`/images/titulo.png`} height={86} width={1300} alt="image"/>
+            <Image src={`/images/titulo.svg`} height={86} width={1300} alt="image"/>
           </div>
         </div>
         <div className={`${style.container}`}>
