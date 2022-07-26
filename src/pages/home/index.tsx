@@ -18,16 +18,39 @@ const Home = () => {
           </div>
         </div>
         <div className={`${style.container}`}>
-          <Link href={"/institutional"}>
+          <Link href={"/"}>
             <a>
               <BoxContent color="blueDark" iconName="institutional" title="INSTITUCIONAL" />
             </a>
           </Link>
-          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIC FIM" titleLink="MALLORCA" />
-          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIM" titleLink="GALÁPAGOS" />
-          <BoxContent color="blueDark" iconName="contato" isDiferent={true} titleLink="MATERIAIS" title=" E CANAIS DE" titleContato="CONTATO" />
-          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIA" titleLink="MONTECRISTO" />
-          <BoxContent color="blueDark" iconName="fundos" title="SAIBA MAIS SOBRE OS" titleLink="FUNDOS"  />
+          <Link href={"/quantias-mallorca"}>
+            <a>
+              <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIC FIM" titleLink="MALLORCA" />
+            </a>
+          </Link>
+          <Link href={"/quantias-galapagos"}>
+            <a>
+              <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIM" titleLink="GALÁPAGOS" />
+            </a>
+          </Link>
+          <Link href={"/materias-de-contato"}>
+            <a>
+              <BoxContent color="blueDark" iconName="contato" isDiferent={true} titleLink="MATERIAIS" title=" E CANAIS DE" titleContato="CONTATO" />
+            </a>
+          </Link>
+
+          <Link href={"/quantias-montecristo"}>
+            <a>
+              <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIA" titleLink="MONTECRISTO" />
+            </a>
+          </Link>
+          
+          <Link href={"https://quantitas.com.br/nossos-fundos/"}>
+            <a>
+            <BoxContent color="blueDark" iconName="fundos" title="SAIBA MAIS SOBRE OS" titleLink="FUNDOS"  />
+            </a>
+          </Link>
+          
         </div>
       </div>
     </>
