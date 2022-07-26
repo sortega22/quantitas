@@ -23,11 +23,11 @@ const Home = () => {
               <BoxContent color="blueDark" iconName="institutional" title="INSTITUCIONAL" />
             </a>
           </Link>
-          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIC FIM MALLORCA" />
-          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIM GALÁPAGOS" />
-          <BoxContent color="blueDark" iconName="contato" title="MATERIAIS E CANAIS DE CONTATO" />
-          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIA MONTECRISTO" />
-          <BoxContent color="blueDark" iconName="fundos" title="SAIBA MAIS SOBRE OS FUNDOS" />
+          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIC FIM" titleLink="MALLORCA" />
+          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIM" titleLink="GALÁPAGOS" />
+          <BoxContent color="blueDark" iconName="contato" isDiferent={true} titleLink="MATERIAIS" title=" E CANAIS DE" titleContato="CONTATO" />
+          <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIA" titleLink="MONTECRISTO" />
+          <BoxContent color="blueDark" iconName="fundos" title="SAIBA MAIS SOBRE OS" titleLink="FUNDOS"  />
         </div>
       </div>
     </>
