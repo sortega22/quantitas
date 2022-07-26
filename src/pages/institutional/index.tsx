@@ -3,6 +3,10 @@ import React from "react";
 import Image from 'next/image';
 import style from './styles.module.scss';
 
+export async function getStaticProps() {
+  return { props: { isDark: false } };
+}
+
 const Institutional = () => {
   return (
     <>

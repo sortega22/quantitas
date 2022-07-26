@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from 'next/image'
 
 import style from './styles.module.scss';
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -17,7 +18,11 @@ const Home = () => {
           </div>
         </div>
         <div className={`${style.container}`}>
-          <BoxContent color="blueDark" iconName="institutional" title="INSTITUCIONAL" />
+          <Link href={"/institutional"}>
+            <a>
+              <BoxContent color="blueDark" iconName="institutional" title="INSTITUCIONAL" />
+            </a>
+          </Link>
           <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIC FIM MALLORCA" />
           <BoxContent color="blueLight" iconName="mallorca" title="QUANTITAS FIM GALÁPAGOS" />
           <BoxContent color="blueDark" iconName="contato" title="MATERIAIS E CANAIS DE CONTATO" />

@@ -1,10 +1,12 @@
-body {
+.body {
   background-image: url("/images/backdrop-image.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.timeLine {
-  background-color: red;
+.body-dark {
+  background-image: linear-gradient(180deg, #1B365D 0%, #1B365DC9 40%, #1B365D9C 66%, #1B365D91 81%, #1B365D 100%), url("/images/backdrop-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
