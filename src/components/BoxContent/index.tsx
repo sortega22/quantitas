@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 import style from './styles.module.scss';
+import Shake from 'react-reveal/Shake';
 
 interface BoxContentProps {
   iconName: string;
@@ -26,7 +27,9 @@ const BoxContent: React.FC<BoxContentProps> = ({
           <Image src={`/icons/${iconName}.svg`} className={`${style.boxIcon}`} height={118} width={118} alt={title}/>
           <div className={`${style.boxContentTitle}`}>
             {!isDiferent ? <h2>{title} <span>{titleLink}</span></h2> : <h2>{titleLink} {title} <span>{titleContato}</span></h2>}
-            <Image src={"/icons/seta.png"} width={82} height={82} alt="seta" />
+            <Shake>
+              <Image src={"/icons/seta.png"} width={82} height={82} alt="seta" />
+            </Shake>
           </div>
         </div>
       </div>
