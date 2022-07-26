@@ -8,6 +8,13 @@ const nextConfig = {
 
 module.exports = {
   nextConfig,
+  redirects: async () => [
+    {
+      source: "/",
+      destination: "/home",
+      permanent: false,
+    },
+  ],
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
