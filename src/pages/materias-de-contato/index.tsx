@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import style from './styles.module.scss';
 import BackTo from '@root/components/BackTo';
+import TitleHeader from '@root/components/TitleHeader';
 
 export async function getStaticProps() {
   return { props: { isDark: true } };
@@ -10,6 +11,7 @@ export async function getStaticProps() {
 const qrcode = () => {
   return (
     <>
+      <TitleHeader title="" left="42px" dark strong='Materiais e canais de contato' />
       <BackTo />
       <div className={style.flex}>
         <div>
