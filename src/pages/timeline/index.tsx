@@ -9,48 +9,53 @@ const timeline = () => {
   return (
     <section className={style.pstimelinesec}>
     <div className={style.container}>
+        <div className={style.timelineBar}></div>
         <ol className={style.pstimeline}>
             <li>
                 <div className={style.psbot}>
-                    <p>Do you have a recent injury or long term pain?</p>
+                    <p>Fundada em agosto em Porto Alegre/RS</p>
+                    <p style={{
+                        width: "100%",
+                        marginTop: "10px"
+                    }}>Incorporação do Quantitas FIA Montecristo para gestão da Quantitas (fundo de ações disponível na XP)</p>
                 </div>
                 <span className={style.psspbot}>2011</span>
             </li>
             <li>
                 <div className={style.pstop}>
-                    <p>Have you tried Physiotherapy, Chiropractor or your GP without the pain free results?</p>
+                    <p>Criação do Quantitas FIM Arbitragem</p>
                 </div>
                 <span className={style.pssptop}>2014</span>
             </li>
             <li>
                 <div className={style.psbot}>
-                    <p>Let Physology assess and treat your pain with our trusted revolusionary approach.</p>
+                    <p>Criação do Quantitas FIC FIM Mallorca (multiestratégias disponível na XP)</p>
                 </div>
                 <span className={style.psspbot}>2016</span>
             </li>
             <li>
                 <div className={style.pstop}>
-                    <p>Join our happy family of pain free clients.</p>
+                    <p>Criação do Quantitas FIM Galápagos (multimercado juros e inflação disponível na XP)</p>
                 </div>
-                <span className={style.psspbot}>2018</span>
+                <span className={style.pssptop}>2018</span>
             </li>
             <li>
-                <div className={style.pstop}>
-                    <p>Join our happy family of pain free clients.</p>
+                <div className={style.psbot}>
+                    <p>Criação do Quantitas FIM Maldivas LS</p>
                 </div>
                 <span className={style.psspbot}>2019</span>
             </li>
             <li>
                 <div className={style.pstop}>
-                    <p>Join our happy family of pain free clients.</p>
+                    <p>Quantitas FIC FIM Mallorca no B2C da XP</p>
                 </div>
-                <span className={style.psspbot}>2019</span>
+                <span className={style.pssptop}>2020</span>
             </li>
             <li>
-                <div className={style.pstop}>
-                    <p>Join our happy family of pain free clients.</p>
+                <div className={style.psbot}>
+                    <p>Quantitas FIM Galápagos e Quantitas FIA Montecristo no B2C da XP</p>
                 </div>
-                <span className={style.psspbot}>2020</span>
+                <span className={style.psspbot}>2021</span>
             </li>
         </ol>
     </div>
