@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import style from './styles.module.scss';
 
 export async function getStaticProps() {
@@ -7,6 +8,8 @@ export async function getStaticProps() {
 
 const timeline = () => {
   return (
+    <>
+    <div>
     <section className={style.pstimelinesec}>
     <div className={style.container}>
         <div className={style.timelineBar}></div>
@@ -59,7 +62,54 @@ const timeline = () => {
             </li>
         </ol>
     </div>
-</section>
+    </section>
+    <section className={style.quantitiesBoxes}>
+        <div className={style.quantityBox}>
+            <Image src={"/icons/sob-gestao.svg"} width={68} height={68} alt="icon" />
+            <div className={style.quantityBoxContent}>
+                <h2>10</h2>
+                <p>
+                    <strong>FUNDOS</strong>
+                    <span>SOB GESTÃO</span>
+                </p>
+            </div>
+        </div>
+
+        <div className={style.quantityBox}>
+            <Image src={"/icons/anos-de-historia.svg"} width={68} height={68} alt="icon" />
+            <div className={style.quantityBoxContent}>
+                <h2>11</h2>
+                <p>
+                    <strong>ANOS</strong>
+                    <span>DE HISTÓRIA</span>
+                </p>
+            </div>
+        </div>
+
+        <div className={style.quantityBox} style={{width: "328px"}}>
+            <Image src={"/icons/bilhoes.svg"} width={68} height={68} alt="icon" />
+            <div className={style.quantityBoxContent}>
+                <h2>+4,7</h2>
+                <p>
+                    <strong>BILHÕES</strong>
+                    <span>SOB GESTÃO</span>
+                </p>
+            </div>
+        </div>
+
+        <div className={style.quantityBox} style={{width: "328px"}}>
+            <Image src={"/icons/bilhoes.svg"} width={68} height={68} alt="icon" />
+            <div className={style.quantityBoxContent}>
+                <h2>+30</h2>
+                <p>
+                    <strong>MIL</strong>
+                    <span>INVESTIDORES</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    </div>
+    </>
   )
 }
 

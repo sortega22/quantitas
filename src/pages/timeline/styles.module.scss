@@ -307,3 +307,41 @@ $brand-color:#df8625;
         }
     }
 }
+
+.quantitiesBoxes {
+    top: 780px;
+    left: 226px;
+    position: absolute;
+    display: flex;
+    gap: 102px;
+}
+
+.quantityBox {
+    background: #1b365d82;
+    width: 241px;
+    height: 222px;
+    /* UI Properties */
+    border: 3px solid #FFFFFF;
+    border-radius: 27px;
+    opacity: 1;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.quantityBoxContent {
+    h2 {
+        font-size: 96px;
+        letter-spacing: -8.14px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    p {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        font-size: 21px;
+    }
+}
