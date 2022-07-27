@@ -91,7 +91,7 @@ const timeline = () => {
         <div className={style.quantityBox} style={{width: "328px"}}>
             <Image src={"/icons/bilhoes.svg"} width={68} height={68} alt="icon" />
             <div className={style.quantityBoxContent}>
-                <h2>+4,7</h2>
+            <h2 style={{marginLeft: "20px"}}>+4,7</h2>
                 <p>
                     <strong>BILHÕES</strong>
                     <span>SOB GESTÃO</span>
@@ -102,7 +102,7 @@ const timeline = () => {
         <div className={style.quantityBox} style={{width: "328px"}}>
             <Image src={"/icons/bilhoes.svg"} width={68} height={68} alt="icon" />
             <div className={style.quantityBoxContent}>
-                <h2>+30</h2>
+                <h2 style={{marginLeft: "20px"}}>+30</h2>
                 <p>
                     <strong>MIL</strong>
                     <span>INVESTIDORES</span>

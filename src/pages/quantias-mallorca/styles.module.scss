@@ -49,7 +49,7 @@
 
 .blueLightBoxInside {
   width: 332px;
-  height: 443px;
+  height: 377px;
   background: transparent linear-gradient(144deg, #1F4972 0%, #4C9FCA 100%) 0% 0% no-repeat padding-box;
   border-radius: 15px;
   opacity: 1;
@@ -194,7 +194,7 @@ font-size: 22px;
 line-height: 19px;
 margin-left:25px;
       margin-bottom:5px;
-      
+      margin-top: 16px;
   
 
 
@@ -211,6 +211,7 @@ line-height: 22px;
 
 color: #2B2862;
 margin-left:25px;
+margin-top: 0;
     }
   }
 }
@@ -230,7 +231,7 @@ background: #4C9FCA;
   }
   
   .line{
-    height:78px;
+    height:83px;
     width:2px;
     background: #4C9FCA;
     margin-left:5.3px;
