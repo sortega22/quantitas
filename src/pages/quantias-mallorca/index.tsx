@@ -3,6 +3,7 @@ import React from "react";
 import Image from 'next/image';
 import style from './styles.module.scss';
 import BackTo from '@root/components/BackTo';
+import TitleHeader from '@root/components/TitleHeader';
 
 export async function getStaticProps() {
   return { props: { isDark: false } };
@@ -11,6 +12,7 @@ export async function getStaticProps() {
 const Institutional = () => {
   return (
     <>
+      <TitleHeader title='Quantitas fic fim' strong='mallorca'  />
       <BackTo />
       <div className={style.generalContent}>
         {/* First Container */}

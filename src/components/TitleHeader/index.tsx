@@ -1,22 +1,27 @@
 import React from 'react';
+import style  from  './styles.module.scss';
 
 interface TitleHeaderProps {
   title: string;
-  secoendTitle?: string;
+  strong?: string;
   divider?: boolean;
+  dark?: boolean;
 }
 
 const TitleHeader: React.FC<TitleHeaderProps> = ({
   title,
-  secoendTitle,
-  divider
+  strong,
+  dark
+
 }) => {
   return (
     <>
-      <div>
-        <h2>{title}</h2>
-        {divider && <hr/>}
-        <h2>{secoendTitle}</h2>
+      <div style={{
+        background: dark ? '#298EC1' : '#1B365D',
+      }} className={style.container}>
+        {
+          strong ? <h2>{title} <strong>{strong}</strong></h2> : <h2>{title}</h2>
+        }
       </div>
     </>
   );
