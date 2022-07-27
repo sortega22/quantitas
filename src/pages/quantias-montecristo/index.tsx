@@ -55,27 +55,27 @@ const Institutional = () => {
             <div className={style.aditionals}>
               <ul>
                 <li>
-                  <p><span>Taxa de administração:</span><strong>1,8% a.a.</strong></p>
+                <p><span>Taxa de administração:</span><strong>2,0% a.a.</strong></p>
                 </li>
                 <li>
-                  <p><span>Taxa de administração:</span><strong>1,8% a.a.</strong></p>
+                  <p><span>Taxa de performance:</span><strong>20% sobre o que exceder 100% do Ibovespa</strong></p>
                 </li>
                 <li>
-                  <p><span>Taxa de administração:</span><strong>1,8% a.a.</strong></p>
+                  <p><span>Aplicação inicial mínima:</span><strong>R$ 1.000,00</strong></p>
                 </li>
               </ul>
               <ul>
               <li>
-                  <p><span>Taxa de administração:</span><strong>1,8% a.a.</strong></p>
+                  <p><span>Movimentação mínima:</span><strong>R$ 1.000,00</strong></p>
                 </li>
                 <li>
-                  <p><span>Taxa de administração:</span><strong>1,8% a.a.</strong></p>
+                  <p><span>Valor de permanência no fundo:</span><strong>R$ 1.000,00</strong></p>
                 </li>
                 <li>
-                  <p><span>Taxa de administração:</span><strong>1,8% a.a.</strong></p>
+                  <p><span>Cotização do resgate*:</span><strong>D+13 dias corridos</strong></p>
                 </li>
                 <li>
-                  <p><span>Taxa de administração:</span><strong>1,8% a.a.</strong></p>
+                  <p><span>Liquidação do resgate*:</span><strong>D+2 dias úteis após a cotização</strong></p>
                 </li>
               </ul>
             </div>
