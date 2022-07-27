@@ -7,8 +7,8 @@
 .containerBlue01 {
   width: 1151px;
   height: 490px;
-  background: #2F85B4 0% 0% no-repeat padding-box;
-  border: 3px solid #2E84B4;
+  background: #2f85b49e 0% 0% no-repeat padding-box;
+  border: 3px solid #2f85b49e;
   border-radius: 27px;
   // opacity: 0.35;
 }
@@ -68,7 +68,7 @@
 
 .qrCodeText {
   width: 1088px;
-  height: 357px;
+  height: 287px;
   /* UI Properties */
   background: #203A61 0% 0% no-repeat padding-box;
   border-radius: 23px;
@@ -90,9 +90,9 @@
 
 .containerBlue02 {
   width: 536px;
-  height: 933px;
+  height: 870px;
   /* UI Properties */
-  background: #D8E4EE 0% 0% no-repeat padding-box;
+  background: #d8e4ee8f 0% 0% no-repeat padding-box;
   border-radius: 15px;
   // opacity: 0.35;
   padding-left: 24px;
@@ -104,8 +104,9 @@
   display: flex;
   justify-content: center;
     gap: 18px;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
+    margin-top: 30px;
 }
 
 .containerContentBox {
