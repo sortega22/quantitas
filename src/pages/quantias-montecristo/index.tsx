@@ -2,6 +2,7 @@ import Fade from 'react-reveal/Fade';
 import React from "react";
 import Image from 'next/image';
 import style from './styles.module.scss';
+import BackTo from '@root/components/BackTo';
 
 export async function getStaticProps() {
   return { props: { isDark: false } };
@@ -10,6 +11,7 @@ export async function getStaticProps() {
 const Institutional = () => {
   return (
     <>
+      <BackTo />
       <div className={style.generalContent}>
         {/* First Container */}
         <Fade left>

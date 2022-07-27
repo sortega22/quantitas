@@ -18,7 +18,7 @@ const Home = () => {
           </div>
         </div>
         <div className={`${style.container}`}>
-          <Link href={"/"}>
+          <Link href={"/timeline"}>
             <a>
               <BoxContent color="blueDark" iconName="institutional" title="INSTITUCIONAL" />
             </a>

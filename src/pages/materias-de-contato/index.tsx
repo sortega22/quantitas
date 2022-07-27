@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import style from './styles.module.scss';
+import BackTo from '@root/components/BackTo';
 
 export async function getStaticProps() {
   return { props: { isDark: true } };
@@ -9,6 +10,7 @@ export async function getStaticProps() {
 const qrcode = () => {
   return (
     <>
+      <BackTo />
       <div className={style.flex}>
         <div>
           <div className={style.containerBlue01}>

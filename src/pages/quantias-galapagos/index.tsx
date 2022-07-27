@@ -2,6 +2,7 @@ import Fade from 'react-reveal/Fade';
 import React from "react";
 import Image from 'next/image';
 import style from './styles.module.scss';
+import BackTo from '@root/components/BackTo';
 
 export async function getStaticProps() {
   return { props: { isDark: false } };
@@ -10,6 +11,7 @@ export async function getStaticProps() {
 const Institutional = () => {
   return (
     <>
+      <BackTo />
       <div className={style.generalContent}>
         {/* First Container */}
         <Fade left>
@@ -29,7 +31,7 @@ const Institutional = () => {
                 <li className={style.listItem}>
                   <div className={style.listItemDivider}></div>
                   <Image src={"/icons/perfil-quantia.svg"} width={68} height={68} alt="good" />
-                  <p className={style.listItemText}><strong>PERFIL DE RISCO:</strong> MODERADO</p>
+                  <p className={style.listItemText}><strong>PERFIL {"\n"} DE RISCO:</strong> MODERADO</p>
                 </li>
                 <li className={style.listItem}>
                   <div className={style.listItemDivider}></div>
