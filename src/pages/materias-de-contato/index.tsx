@@ -34,12 +34,13 @@ const qrcode = () => {
             </div>
           </div>
           <div className={style.qrCodeText}>
+            <div>
             <p>Outro conteúdo disponibilizado através da nossa lista de transmissão são as  <strong>análises do nosso economista-chefe</strong>, Ivo Chermont, a respeito de algum <strong>evento econômico relevante</strong>. Este conteúdo não é periódico, mas o disponibilizamos sempre que nosso time de economia realiza alguma revisão de call ou a partir de algum acontecimento de impacto direto em cenário.
-            ~{"\n"}
-            <span style={{
+            </p>
+            <span className={style.qrCodeTextLasTitle} style={{
               paddingTop: '10px',
             }}><strong>Use o QRcode para salvar o contato da nossa equipe </strong></span>
-            </p>
+            </div>
             <Image src={"/images/qrcode.png"} width={258} height={258} alt="qrcode" />
           </div>
         </div>
@@ -58,8 +59,8 @@ const qrcode = () => {
             <span className={style.containerContentBoxDesc}>Relacionamento com Investidores</span>
           </div>
           <div className={style.containerContentBox}>
-            <h2 className={style.containerContentBoxTitle}>(51) 9 9656-9763</h2>
-            <span className={style.containerContentBoxDesc}>investidores@quantitas.com.br</span>
+            <h2 className={style.containerContentBoxTitle}><Image src={"/icons/phone.svg"} width={20} height={20} alt="phone" /> (51) 9 9656-9763</h2>
+            <h2 className={style.containerContentBoxDesc}><Image src={"/icons/email.svg"} width={20} height={20} alt="phone" /> <span>investidores@quantitas.com.br</span></h2>
           </div>
         </div>
       </div>
