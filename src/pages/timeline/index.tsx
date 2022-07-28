@@ -5,8 +5,8 @@ import BackTo from '@root/components/BackTo';
 import TitleHeader from '@root/components/TitleHeader';
 
 export async function getStaticProps() {
-    return { props: { isDark: true } };
-  }
+    return { props: { body: "body-dark" } };
+}
 
 const timeline = () => {
   return (

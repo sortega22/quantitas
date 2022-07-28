@@ -5,6 +5,13 @@
   font-family: 'Inter', sans-serif;
 }
 
+.body-no-background {
+  background-image: url("/images/backdrop-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+}
+
 .body-dark {
   background-image: url("/images/fundo-dark.png");
   background-repeat: no-repeat;

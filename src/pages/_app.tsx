@@ -5,7 +5,7 @@ import '../styles/global-timeline.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    document.body.className = pageProps.isDark ? 'body-dark' : 'body';
+    document.body.className = pageProps.body;
   });
   return <Component {...pageProps} />
 }
