@@ -30,20 +30,32 @@ const Institutional = () => {
             </div>
             <div className={style.bluBoxTimeLine}>
               <ul>
-                <li className={style.listItem}>
+              <li className={style.listItem}>
                   <div className={style.listItemDivider}></div>
                   <Image src={"/icons/perfil-quantia.svg"} width={68} height={68} alt="good" />
-                  <p className={style.listItemText}><strong>PERFIL {"\n"} DE RISCO:</strong> MODERADO</p>
+                  <div>
+                    <p><strong>PERFIL</strong></p>
+                    <p><strong>DE RISCO:</strong></p>
+                    <p>Moderado</p>
+                  </div>
                 </li>
                 <li className={style.listItem}>
                   <div className={style.listItemDivider}></div>
                   <Image src={"/icons/objetivo.svg"} width={68} height={68} alt="good" />
-                  <p className={style.listItemText}><strong>OBJETIVO DE RETORNO:</strong> CDI+ 4% a.a</p>
+                  <div>
+                    <p><strong>OBJETIVO</strong></p>
+                    <p><strong>DE RETORNO:</strong></p>
+                    <p>CDI+ 4% a.a</p>
+                  </div>
                 </li>
                 <li className={style.listItem}>
                   <div className={style.listItemDivider}></div>
                   <Image src={"/icons/curva.svg"} width={68} height={68} alt="good" />
-                  <p className={style.listItemText}><strong>OBJETIVO DE VOL:</strong> 5% ANUAL</p>
+                  <div>
+                    <p><strong>OBJETIVO</strong></p>
+                    <p><strong>DE VOL:</strong></p>
+                    <p>5% ANUAL</p>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -94,13 +106,13 @@ const Institutional = () => {
           </div>
 
           <div>
-            <Image src={"/icons/cambio.svg"} width={154} height={154} alt="juros"/>
-            <span>CAMBIO</span>
+            <Image src={"/icons/inflacao.svg"} width={154} height={154} alt="INFLAÇÃO"/>
+            <span>INFLAÇÃO</span>
           </div>
 
-          <div>
-            <Image src={"/icons/bolsa.svg"} width={154} height={154} alt="juros"/>
-            <span>BOLSA</span>
+          <div style={{ opacity: 0}}>
+            <Image src={"/icons/inflacao.svg"} width={154} height={154} alt="INFLAÇÃO"/>
+            <span>INFLAÇÃO</span>
           </div>
         </div>
         </Fade>

@@ -94,11 +94,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 29px;
 
   p {
     font-size: 22px;
     width: 181px;
     color: #1B365D;
+    margin: 0;
   }
 }
 
@@ -117,7 +119,7 @@
 .blueDarkBox {
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  gap: 29px;
   justify-content: center;
   align-items: center;
 
@@ -272,14 +274,57 @@ background: #4C9FCA;
       margin-top: -61px;
     }
   }
-  li {
-    // width: 50%;
-  }
   p {
     font-size: 18px;
     letter-spacing: 0px;
     color: #1B365D;
     display: flex;
     flex-direction: column;
+  }
+}
+
+.boxgestao {
+  width: 201px;
+  height: 463px;
+  /* UI Properties */
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFFFFFEA 21%, #FFFFFFD9 100%) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+
+  h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #1B365D;
+  }
+
+  ul {
+    padding: 0;
+    margin: 20px;
+    margin-top: 0px;
+  }
+
+  ul li {
+    list-style: none;
+    text-align: center;
+
+    p {
+      text-align: center;
+      color: #1B365D;
+      font-size: 15px;
+    }
+  }
+}
+
+.imagexp {
+  margin-top: 270px;
+  margin-left: 50px;
+}
+
+.smallText {
+  list-style: none;
+    width: 218px;
+  p {
+    font-size: 9px;
   }
 }

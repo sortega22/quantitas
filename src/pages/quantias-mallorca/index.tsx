@@ -33,17 +33,29 @@ const Institutional = () => {
                 <li className={style.listItem}>
                   <div className={style.listItemDivider}></div>
                   <Image src={"/icons/perfil-quantia.svg"} width={68} height={68} alt="good" />
-                  <p className={style.listItemText}><strong>PERFIL DE RISCO:</strong> MODERADO</p>
+                  <div>
+                    <p><strong>PERFIL</strong></p>
+                    <p><strong>DE RISCO:</strong></p>
+                    <p>Moderado</p>
+                  </div>
                 </li>
                 <li className={style.listItem}>
                   <div className={style.listItemDivider}></div>
                   <Image src={"/icons/objetivo.svg"} width={68} height={68} alt="good" />
-                  <p className={style.listItemText}><strong>OBJETIVO DE RETORNO:</strong> CDI+ 4% a.a</p>
+                  <div>
+                    <p><strong>OBJETIVO</strong></p>
+                    <p><strong>DE RETORNO:</strong></p>
+                    <p>CDI+ 4% a.a</p>
+                  </div>
                 </li>
                 <li className={style.listItem}>
                   <div className={style.listItemDivider}></div>
                   <Image src={"/icons/curva.svg"} width={68} height={68} alt="good" />
-                  <p className={style.listItemText}><strong>OBJETIVO DE VOL:</strong> 5% ANUAL</p>
+                  <div>
+                    <p><strong>OBJETIVO</strong></p>
+                    <p><strong>DE VOL:</strong></p>
+                    <p>5% ANUAL</p>
+                  </div>
                 </li>
               </ul>
             </div>

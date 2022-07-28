@@ -6,21 +6,6 @@ import Shake from 'react-reveal/Shake';
 import Lottie from 'react-lottie-player'
 import lottieJson from '../../setas.json'
 
-
-// const BackTo = () => {
-//   return (<>
-//     <Link href={"/home"}>
-//       <a>
-//         <div className={style.backContainer}>
-//           <Shake>
-//             <Image src={"/icons/seta.png"} width={82} height={82} alt="seta" />
-//           </Shake>
-//         </div>
-//       </a>
-//     </Link>
-//   </>);
-// }
-
 const BackTo = () => {
   return (<>
     <Link href={"/home"}>

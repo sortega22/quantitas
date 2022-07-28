@@ -77,6 +77,8 @@ const Institutional = () => {
                 <li>
                   <p><span>Liquidação do resgate*:</span><strong>D+2 dias úteis após a cotização</strong></p>
                 </li>
+                <li className={style.smallText}><p>
+                *Prazo de resgate válido a partir de 19/08/2022, após efetivação do novo regulamento.</p></li>
               </ul>
             </div>
           </div>
@@ -89,18 +91,26 @@ const Institutional = () => {
             <h2>CLASSES DE ATIVOS</h2>
           </div>
           <div>
-            <Image src={"/icons/juros.svg"} width={154} height={154} alt="juros"/>
-            <span>JUROS</span>
+            <Image src={"/icons/acoes.svg"} width={154} height={154} alt="AÇÕES"/>
+            <span>AÇÕES</span>
           </div>
 
-          <div>
-            <Image src={"/icons/cambio.svg"} width={154} height={154} alt="juros"/>
-            <span>CAMBIO</span>
-          </div>
-
-          <div>
-            <Image src={"/icons/bolsa.svg"} width={154} height={154} alt="juros"/>
-            <span>BOLSA</span>
+          <div className={style.boxgestao}>
+            <h2>GESTÃO DO MONTECRISTO</h2>
+            <ul>
+              <li>
+                <Image src={'/icons/slash-blue.svg'} width={20} height={20} alt={"icone"} />
+                <p>Investimentos em bons negócios a preços atrativos.</p>
+              </li>
+              <li>
+                <Image src={'/icons/slash-blue.svg'} width={20} height={20} alt={"icone"} />
+                <p>Alocação de forma concentrada em companhias que, normalmente, estão fora de consenso.</p>
+              </li>
+              <li>
+                <Image src={'/icons/slash-blue.svg'} width={20} height={20} alt={"icone"} />
+                <p>Equilíbrio de posições em ativos com perfil de valor e crescimento.</p>
+              </li>
+            </ul>
           </div>
         </div>
         </Fade>
@@ -121,48 +131,35 @@ const Institutional = () => {
                 <div className={style.dot}></div>
                 <div className={style.line}></div>
                 <div className={style.dot}></div>
-                <div className={style.line}></div>
-                <div className={style.dot}></div>
-                <div className={style.line}></div>
-                <div className={style.dot}></div>
 
               </div>
               
               <div className={style.cards}>
                 <div style={{ height: "243px" }} className={style.card}>
-                  <Image src={"/images/rogério.png"} width={156} height={157} alt="rogerio" />
-                  <h4>Rogério Braga</h4>
-                  <p>Sócio e gestor de multimercados</p>
+                  <Image src={"/images/wagner.png"} width={156} height={157} alt="rogerio" />
+                  <h4>Wagner Salaverry</h4>
+                  <p>Sócio e gestor de renda variável</p>
                 </div>
 
                 <div className={style.card}>
-                  <h4>Matheus Gallina</h4>
-                  <p>Sócio e trader de multimercados</p>
+                  <h4>Vinicius Piccinini</h4>
+                  <p>Sócio e cogestor do fundo</p>
                 </div>
 
                 <div className={style.card}>
-                  <h4>Lucas Monteiro</h4>
-                  <p>Sócio e trader de multimercados</p>
+                  <h4>Nicolas Hendges</h4>
+                  <p>Analista de investimentos</p>
                 </div>
 
                 <div className={style.card}>
-                  <h4>João Pedro</h4>
-                  <p>Trader de multimercados</p>
+                  <h4>Gabriel Zanette</h4>
+                  <p>Analista de investimentos</p>
                 </div>
-
-                <div className={style.card}>
-                  <h4>Ivo Chermont</h4>
-                  <p>Sócio e economista-chefe</p>
-                </div>
-
-                <div className={style.card}>
-                  <h4>João Fernandes</h4>
-                  <p>Sócio e economista</p>
-                </div>
-              </div>
+              </div>              
               
-              
-              
+            </div>
+            <div className={style.imagexp}>
+              <Image src={"/images/xp.png"} width={466} height={79} alt="xp" />
             </div>
           </div>
           </div>
